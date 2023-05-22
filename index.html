@@ -8,7 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="index.css" />
-
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kumbh+Sans">
 
   <title>Frontend Mentor | Profile card component</title>
 
@@ -31,18 +31,26 @@
     <div class="card">
       <img class="icon" src="images/image-victor.jpg" />
 
-      <h1> Victor Crest </h1>
-      <h2> 26 </h2>
-      <h3>London</h3>
+      <h2> Victor Crest <span class="subtitle"> 26 </span> </h2>
 
-      <h1> 80K </h1>
-      <h4> Followers </h4>
+      <span class="subtitle"> London </span>
+      <div class="stats">
 
-      <h1> 803K </h1>
-      <h4> Likes </h4>
+        <div>
+          <h2> 80K </h2> 
+          <span class="subtitle"> Followers </span>
+        </div>
 
-      <h1> 1.4K </h1>
-      <h4> Photos </h4>
+        <div>
+          <h2> 803K </h2>
+          <span class="subtitle"> Likes </span>
+        </div>
+        
+        <div>
+          <h2> 1.4K </h2>
+          <span class="subtitle"> Photos </span>
+        </div>
+      </div>
 
     </div>
   </div>
